@@ -1,0 +1,52 @@
+.container{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+border: 2px solid black;
+  width:40%;
+  height:80%; 
+  align-content: center;
+  padding-top:0px; 
+  padding-bottom: 65px; 
+  
+}
+td{
+ font-size: 18px;  
+ text-align: right;
+}
+tr{
+    width:250px;
+    height:65px;
+} 
+select{
+    border: transparent; 
+    background-color: white;
+} 
+select,option{
+    font-size: 15px;
+}
+input{
+    border:transparent;
+    background-color: cadetblue;
+    height: 35px;
+    width:250px;
+} 
+#b1{
+    width:175px; 
+     height:38px;
+    border:transparent;
+    background-color: aqua; 
+    align-content: center;
+}
+#b2{ 
+    width:275px;
+    height:38px;
+    border:white;
+    background-color: aqua; 
+    align-content: center;
+}
+.one{
+    color: grey; 
+    text-align: right;
+    font-size:15px;
+}

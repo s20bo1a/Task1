@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+
+<body align="center">
+    <div class="container">
+        <form name="myform" onsubmit="return validateform()">
+            <table align="center">
+
+                <th>
+                    <tr>
+                        <td>Select your source:|</td>
+                        <td><select>
+                                <option> Google Could Storage</option>
+                                <option>Amazon Could Storage</option>
+                                <option>Microsoft Could Storage</option>
+                                <option>Adobe Could Storage</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Provide a name for pipeline:|</td>
+                        <td><input type="text" id="validate"   placeholder="e.g.,cust_shop_engery_gkateway001" name="name"></td>
+                    </tr>
+
+                    <tr>
+                        <td>GCS project name:|</td>
+                        <td><input type="number"  placeholder="project_id" name="prgname"></td>
+                    </tr>
+                    <tr>
+                        <td>GCS bucket name:|</td>
+                        <td><input type="text" placeholder="gs://your-bucket"name="bktname"></td>
+                    </tr>
+                    <tr>
+                        <td>Input Could Storage File(s):|</td>
+                        <td><input type="text" value="" placeholder="GCS location of your files" name="fname"><br>
+                            <p class="one">Example:
+                                gs://your-bucket/your-files/01.csv</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>GCS credentials:|</td>
+                        <td><input type="text" name="cred"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Run Every:|</td>
+                        <td><input type="number" placeholder="(in minutes)" name="times"></td>
+                    </tr>
+
+                    <tr>
+                        <td><button id="b1">Create</button></td>
+                        <td><button id="b2">Cancel</button></td>
+                    </tr>
+                </th>
+            </table>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
